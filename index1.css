@@ -1,0 +1,115 @@
+*, *:before, *:after {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  position: relative;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.signup-bg-image {
+  background-image: url("./Group 37 (4).svg");
+  height: 625px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20em 0 20em 0;
+}
+.signup-bg-image .signup-box-wrapper {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-bg-image .signup-box-wrapper .signup-box {
+  padding: 1.2em 2em 1.2em 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .already-have-account {
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #949494;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .already-have-account .login {
+  color: #18B5CB;
+  text-decoration: none;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .already-have-account .login:hover {
+  color: #129aac;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .hide {
+  font-size: 5px;
+  color: transparent;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-input {
+  margin-top: 2em;
+  background: #f8f8f8;
+  border: 0px;
+  border-radius: 72.5px;
+  outline: 0;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  color: #949494;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-input:focus {
+  box-shadow: 0px 0px 0px 5px rgba(167, 229, 255, 0.75);
+  border: 1px solid #a8a8a8;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .forget-password {
+  text-align: center;
+  margin-bottom: 0.4em;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  color: #18B5CB;
+  text-decoration: none;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .forget-password:hover {
+  color: #129aac;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-btn {
+  margin-top: 2em;
+  width: 100%;
+  border: 0px;
+  border-radius: 72.5px;
+  align-self: center;
+  background: #18B5CB;
+  font-family: "Ruluko", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-btn:active {
+  border: 1px solid #15a6b9;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-btn:hover {
+  background-color: #1aadc0;
+}
+.signup-bg-image .signup-box-wrapper .signup-box .signup-btn:focus {
+  box-shadow: 0;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+/* Rectangle 152 */
+
+/*# sourceMappingURL=index1.css.map */
